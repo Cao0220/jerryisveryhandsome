@@ -16,10 +16,10 @@ const jqueryScript = document.createElement("script");
 jqueryScript.setAttribute("src", "https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js");
 body.insertAdjacentElement("afterbegin", jqueryScript);
 
-const autoloadScript = document.createElement("script");
-autoloadScript.setAttribute("src", "https://cdn.jsdelivr.net/gh/Cao0220/jerryisveryhandsome@HEAD/live2dv3.js");
-body.insertAdjacentElement("afterbegin", autoloadScript);
+const live2dv3Script = document.createElement("script");
+live2dv3Script.setAttribute("src", "https://cdn.jsdelivr.net/gh/Cao0220/jerryisveryhandsome@HEAD/live2dv3.js");
+body.insertAdjacentElement("afterbegin", live2dv3Script);
 
 const autoloadScript = document.createElement("script");
-autoloadScript.setAttribute("src", "https://cdn.jsdelivr.net/gh/Cao0220/jerryisveryhandsome@HEAD/bitch.js");
+autoloadScript.setAttribute("src", "https://cdn.jsdelivr.net/gh/Cao0220/jerryisveryhandsome@HEAD/live2dv3.js");
 body.insertAdjacentElement("afterbegin", autoloadScript);
