@@ -20,13 +20,6 @@ const autoloadScript = document.createElement("script");
 autoloadScript.setAttribute("src", "https://cdn.jsdelivr.net/gh/Cao0220/jerryisveryhandsome@HEAD/live2dv3.js");
 body.insertAdjacentElement("afterbegin", autoloadScript);
 
-window.onload = () => {
-    new l2dViewer({
-        el: document.getElementById('L2dCanvas'),
-        basePath: 'https://cdn.jsdelivr.net/gh/Cao0220/jerryisveryhandsome@HEAD/assets',
-        modelName: 'biaoqiang_3',
-        sizeLimit: false,
-        mobileLimit: false,
-        sounds: []
-    })
-}
+const autoloadScript = document.createElement("script");
+autoloadScript.setAttribute("src", "https://cdn.jsdelivr.net/gh/Cao0220/jerryisveryhandsome@HEAD/bitch.js");
+body.insertAdjacentElement("afterbegin", autoloadScript);
