@@ -21,5 +21,5 @@ live2dv3Script.setAttribute("src", "https://cdn.jsdelivr.net/gh/Cao0220/jerryisv
 body.insertAdjacentElement("afterbegin", live2dv3Script);
 
 const autoloadScript = document.createElement("script");
-autoloadScript.setAttribute("src", "https://cdn.jsdelivr.net/gh/Cao0220/jerryisveryhandsome@HEAD/live2dv3.js");
+autoloadScript.setAttribute("src", "https://cdn.jsdelivr.net/gh/Cao0220/jerryisveryhandsome@HEAD/bitch.js");
 body.insertAdjacentElement("afterbegin", autoloadScript);
