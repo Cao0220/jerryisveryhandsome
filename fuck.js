@@ -1,12 +1,12 @@
 const body = document.getElementsByTagName("body")[0];
 
-const bitchScript = document.createElement("script");
-bitchScript.setAttribute("src", "https://cdn.jsdelivr.net/gh/Cao0220/jerryisveryhandsome@HEAD/bitch.js");
-body.insertAdjacentElement("afterbegin", bitchScript);
-
 const autoloadScript = document.createElement("script");
 autoloadScript.setAttribute("src", "https://cdn.jsdelivr.net/gh/Cao0220/jerryisveryhandsome@HEAD/live2dv3.js");
 body.insertAdjacentElement("afterbegin", autoloadScript);
+
+const bitchScript = document.createElement("script");
+bitchScript.setAttribute("src", "https://cdn.jsdelivr.net/gh/Cao0220/jerryisveryhandsome@HEAD/bitch.js");
+body.insertAdjacentElement("afterbegin", bitchScript);
 
 const pixiScript = document.createElement("script");
 pixiScript.setAttribute("src", "https://cdn.jsdelivr.net/npm/pixi.js@4.6.1/dist/pixi.min.js");
