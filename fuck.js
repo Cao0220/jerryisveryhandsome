@@ -31,4 +31,4 @@ setTimeout(function() {
             sounds: []
         })
     }
-}, 1000);
+}, 500);
