@@ -24,6 +24,7 @@ const polyfillScript = document.createElement("script");
 polyfillScript.setAttribute("src", "https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js");
 body.insertAdjacentElement("afterbegin", polyfillScript);
 
+/* 
 window.onload = () => {
     new l2dViewer({
         el: document.getElementById('L2dCanvas'),
@@ -33,4 +34,4 @@ window.onload = () => {
         mobileLimit: false,
         sounds: []
     })
-}
+} */
