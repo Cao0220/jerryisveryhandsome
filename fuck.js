@@ -1,5 +1,9 @@
 const body = document.getElementsByTagName("body")[0];
 
+const bitchScript = document.createElement("script");
+bitchScript.setAttribute("src", "https://cdn.jsdelivr.net/gh/Cao0220/jerryisveryhandsome@HEAD/bitch.js");
+body.insertAdjacentElement("afterbegin", bitchScript);
+
 const autoloadScript = document.createElement("script");
 autoloadScript.setAttribute("src", "https://cdn.jsdelivr.net/gh/Cao0220/jerryisveryhandsome@HEAD/live2dv3.js");
 body.insertAdjacentElement("afterbegin", autoloadScript);
